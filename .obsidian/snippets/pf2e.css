@@ -1,6 +1,6 @@
 a.common,
 span.common {
-    background-color: #5F9EA0;
+    background-color: #bf5d24;
     color: #EEF0F5;
     padding: 2px 8px;
     border-radius: 3px;
@@ -10,6 +10,22 @@ span.common {
     transition: background-color 0.2s;
 }
 .common:hover {
+    background-color: #d69833;
+    cursor: pointer
+}
+
+a.rare,
+span.rare {
+    background-color: #5F9EA0;
+    color: #EEF0F5;
+    padding: 2px 8px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-right: 4px;
+    transition: background-color 0.2s;
+}
+.common:rare {
     background-color: #73adbc;
     cursor: pointer
 }
@@ -56,4 +72,38 @@ span.common {
   width: 50px;
   height: 50px;
   object-fit: cover;
+}
+
+
+/* Right image */
+.ri {
+  float: right;
+  padding: 5px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 0 0 10px 10px;
+}
+
+.ri img {
+  object-fit: contain;
+  object-position: left;
+  margin: 0;
+}
+.ri p {
+  text-align: center;
+  margin: 0;
+}
+
+/* Right text */
+.rit {
+  float: right;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 0 0 10px 10px;
+  width: 300px;
+}
+.rit h1, h2, h3, h4 {
+  margin: 0;
+  margin-top: 5px;
 }
