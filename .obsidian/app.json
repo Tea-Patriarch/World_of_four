@@ -1,1 +1,5 @@
-{}
+{
+  "defaultViewMode": "preview",
+  "vimMode": true,
+  "showInlineTitle": false
+}

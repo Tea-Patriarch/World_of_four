@@ -1,1 +1,8 @@
-{}
+{
+  "theme": "moonstone",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "pf2e"
+  ],
+  "showViewHeader": true
+}
