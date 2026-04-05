@@ -28,7 +28,7 @@
       {
         "id": "a52d675fba32f4fb",
         "type": "tabs",
-        "dimension": 56.47208121827412,
+        "dimension": 56.47208121827411,
         "children": [
           {
             "id": "8ebc92df160fae8a",
@@ -204,16 +204,26 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "100bb44ca19dcda4",
+  "active": "51b18aa5e50639d7",
   "lastOpenFiles": [
+    "Народы/Дух/Черты духов/Призрачный огонь.md",
+    "Народы/Дух/Дух.md",
+    "Народы/Дух/Черты духов/Cила эгрегора.md",
+    "Народы/Дух/Черты духов/Быстрый Дух.md",
+    "Народы/Дух/Черты духов/Призрачная форма.md",
+    "Народы/Дух/Черты духов/Прирожденный прыгун.md",
+    "Народы/Дух/Черты духов/Связь с растениями.md",
+    "Народы/Дух/Черты духов/Связь с аспектом.md",
+    "Народы/Дух/Черты духов",
     "source/scripts/tooltip.js",
     "source/scripts",
     "source/Puer_1.png",
     "Боги/Средний План/Хина.md",
-    "Народы/Дух/Дух.md",
     "source/Spirit_1.png",
     "Народы/Дух",
     "Народы",

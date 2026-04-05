@@ -10,39 +10,3 @@
 .CodeMirror-lines {
     font-family: monospace !important;
 }
-/* Основной контейнер */
-a.tooltip {
-  position: relative; /* чтобы tooltip позиционировался относительно ссылки */
-  text-decoration: none;
-  color: #3498db;
-  cursor: pointer;
-}
-
-/* Сам tooltip, скрыт по умолчанию */
-a.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 220px;           /* ширина тултипа */
-  background-color: #333;
-  color: #fff;
-  text-align: left;
-  padding: 6px 10px;
-  border-radius: 4px;
-
-  position: absolute;
-  bottom: 120%;           /* над ссылкой */
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
-
-  white-space: normal;    /* перенос строк */
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-
-  opacity: 0;
-  transition: opacity 0.2s;
-}
-
-/* Появление при hover */
-a.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
